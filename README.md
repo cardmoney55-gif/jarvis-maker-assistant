@@ -2,8 +2,22 @@
 
 # J.A.R.V.I.S. — Автономний асистент майстра
 
+![License](https://img.shields.io/github/license/cardmoney55-gif/jarvis-maker-assistant?color=blue)
+![Stars](https://img.shields.io/github/stars/cardmoney55-gif/jarvis-maker-assistant?style=social)
+![Issues](https://img.shields.io/github/issues/cardmoney55-gif/jarvis-maker-assistant)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Electron](https://img.shields.io/badge/Electron-2C2E3B?logo=electron&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Gemini](https://img.shields.io/badge/AI-Gemini-8E75B2)
+
 Власний AI-асистент у стилі «Залізної людини» для збірки та пайки електроніки.
 Розмовляє **українською**, **бачить** через камеру, веде **живу голосову розмову**, **сам шукає в інтернеті**, **накопичує знання**, малює **3D-голограми деталей** і виконує **навички**. Працює як **десктоп-програма** (Electron), не в браузері.
+
+## 🎬 Демо
+
+> 📹 *Демо-відео скоро.* На записі: «покажи діод» → обертова 3D-голограма з підписами пінів, жива голосова розмова з перериванням, розпізнавання деталі камерою.
+
+<!-- Додай GIF сюди: ![demo](docs/demo.gif) -->
 
 ---
 
@@ -91,9 +105,26 @@ src/                   React UI (ядро, камера, схема пайки, 
 
 ---
 
+## 🗺 Roadmap
+
+- [x] Розум (Gemini), власний безкоштовний веб-пошук, памʼять із самонавчанням
+- [x] Зір (камера) + авто-додавання деталей у схему
+- [x] 3D-голограми деталей із підписами пінів
+- [x] Система навичок (function-calling)
+- [x] Живий голосовий режим (VAD + переривання) + нейроголос Piper
+- [ ] Wake-word «Джарвіс» (активація голосом)
+- [ ] Локальний Whisper — офлайн-розпізнавання, без квоти
+- [ ] Покрокові 3D-інструкції пайки
+- [ ] Керування платами/GPIO як навички
+- [ ] Англомовний інтерфейс (i18n)
+
+Маєш ідею? Відкрий [issue](https://github.com/cardmoney55-gif/jarvis-maker-assistant/issues) 💡
+
+---
+
 ## 🤝 Внесок
 
-Проєкт відкритий — будь-хто може його допрацьовувати. Як долучитися, структура коду та як додати нову навичку — у [CONTRIBUTING.md](CONTRIBUTING.md).
+Проєкт відкритий — будь-хто може його допрацьовувати. Як долучитися, структура коду та як додати нову навичку — у [CONTRIBUTING.md](CONTRIBUTING.md). Шукай задачі з міткою [`good first issue`](https://github.com/cardmoney55-gif/jarvis-maker-assistant/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ## 📄 Ліцензія
 

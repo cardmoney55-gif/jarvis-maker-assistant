@@ -2,6 +2,14 @@
 
 # J.A.R.V.I.S. — Autonomous Maker Assistant
 
+![License](https://img.shields.io/github/license/cardmoney55-gif/jarvis-maker-assistant?color=blue)
+![Stars](https://img.shields.io/github/stars/cardmoney55-gif/jarvis-maker-assistant?style=social)
+![Issues](https://img.shields.io/github/issues/cardmoney55-gif/jarvis-maker-assistant)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Electron](https://img.shields.io/badge/Electron-2C2E3B?logo=electron&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Gemini](https://img.shields.io/badge/AI-Gemini-8E75B2)
+
 A personal AI assistant in the style of Iron Man's J.A.R.V.I.S., built for
 electronics assembly and soldering. It **talks** (Ukrainian), **sees** through a
 camera, holds a **live voice conversation**, **searches the web on its own**,
@@ -100,9 +108,26 @@ src/                React UI
 
 ---
 
+## 🗺 Roadmap
+
+- [x] Brain (Gemini), own free web search, self-learning memory
+- [x] Vision (camera) + auto-add parts to the schematic
+- [x] 3D component holograms with labeled pins
+- [x] Skills system (function-calling)
+- [x] Live voice mode (VAD + barge-in) + Piper neural voice
+- [ ] Wake word "Jarvis"
+- [ ] Local Whisper — offline STT, no quota
+- [ ] Step-by-step 3D soldering guides
+- [ ] Board/GPIO control as skills
+- [ ] English UI (i18n)
+
+Got an idea? Open an [issue](https://github.com/cardmoney55-gif/jarvis-maker-assistant/issues) 💡
+
+---
+
 ## 🤝 Contributing
 
-The project is open — anyone can improve it. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, code structure, and how to add a new skill.
+The project is open — anyone can improve it. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, code structure, and how to add a new skill. Look for [`good first issue`](https://github.com/cardmoney55-gif/jarvis-maker-assistant/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) tasks.
 
 ## 📄 License
 
