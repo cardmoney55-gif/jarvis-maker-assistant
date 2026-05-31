@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS DIY Maker Assistant",
+  "description": "Your custom AI maker companion that sees your components, researches pinouts, and guide you through soldering and DIY projects.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
